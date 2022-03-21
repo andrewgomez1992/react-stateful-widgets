@@ -43,7 +43,7 @@ const [featured, setFeatured] = useState(null);
     //   }
     // }
     const foundDev = programmers.find(dev => dev.id === featured)
-    return foundDev.name;
+    return foundDev.name
   };
 
   const style = {
